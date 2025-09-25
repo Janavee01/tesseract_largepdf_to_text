@@ -33,16 +33,11 @@ git clone <your-repository-url>
 cd <your-repository-directory>
 Install the required Python packages:
 
-bash
-Copy code
 pip install -r requirements.txt
 Running the Script
 Place the PDF file you want to process in the project directory and name it CAO.pdf (or modify the pdf_path in main.py).
 
 Run the main script from the terminal:
-
-bash
-Copy code
 python main.py
 The script will process the PDF page by page, and the extracted text will be saved to cao_output_text.txt by default.
 ```
