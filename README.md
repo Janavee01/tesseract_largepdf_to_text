@@ -46,5 +46,5 @@ Copy code
 python main.py
 The script will process the PDF page by page, and the extracted text will be saved to cao_output_text.txt by default.
 ```
-##Output
+Output
 The output is a single text file containing the extracted text from the PDF. Each page's text is separated by a header indicating the page number.
